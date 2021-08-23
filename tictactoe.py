@@ -1,7 +1,4 @@
 #Implementation of Two Player Tic-Tac-Toe game in Python.
-
-
-
 theBoard = {'7': ' ' , '8': ' ' , '9': ' ' ,
             '4': ' ' , '5': ' ' , '6': ' ' ,
             '1': ' ' , '2': ' ' , '3': ' ' }
@@ -10,8 +7,6 @@ board_keys = []
 
 for key in theBoard:
     board_keys.append(key)
-
-
 
 def printBoard(board):
     print(board['7'] + '|' + board['8'] + '|' + board['9'])
